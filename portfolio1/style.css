@@ -1,0 +1,62 @@
+/* Background image for the full page */
+body {
+    background-image: url('https://thumbs.dreamstime.com/z/light-blue-winter-background-simple-blank-space-design-elements-163043509.jpg');  /* Add background image */
+    background-size: cover;  /* Ensure the image covers the entire background */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    background-attachment: fixed;  /* Make the background image fixed */
+}
+/* Set the width of the logo to 50px */
+.logo {
+    width: 200px;
+    height: 200px;  /* Maintain aspect ratio */
+/* Domain Expertise Section */
+.domain {
+    background-color: #e8f0f2;  /* Light Blue background */
+    padding: 2rem;
+    margin: 2rem auto;  /* Centers the section horizontally */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;  /* Center the content */
+    border: 2px solid #2980b9;  /* Adding border to enhance visibility */
+    max-width: 800px;  /* Optional: Set a max width for the section */
+}
+
+.domain h2 {
+    font-size: 2.2rem;
+    color: #2980b9;  /* Matching color with the border */
+    margin-bottom: 1rem;
+    font-weight: bold;  /* Make the heading stand out */
+}
+
+.domain p {
+    font-size: 1.2rem;
+    color: #555;  /* Dark gray text for readability */
+    line-height: 1.6;
+    font-weight: 400;  /* Normal weight for body text */
+    margin-top: 0.5rem;
+}
+
+/* Optional: Adding an icon or image next to the heading */
+.domain-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background-color: #2980b9; /* Matching with the color scheme */
+}
+
+/* Responsive Design for Domain Expertise */
+@media (max-width: 768px) {
+    .domain {
+        padding: 1.5rem;  /* Slightly smaller padding on mobile devices */
+    }
+
+    .domain h2 {
+        font-size: 1.8rem;  /* Adjusting font size for smaller screens */
+    }
+
+    .domain p {
+        font-size: 1rem;  /* Adjusting font size for mobile screens */
+    }
+}
